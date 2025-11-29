@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnify - Online Learning Platform</title>
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#hero" class="skip-link">Skip to main content</a>
+
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="logo">Learnify</div>
+        <ul class="nav-links">
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-center">
+        <form class="search-bar" action="#" aria-label="Search courses">
+          <input
+            type="search"
+            placeholder="Search courses, topics..."
+            aria-label="Search"
+          />
+          <button type="submit" aria-label="Search">
+            🔍
+          </button>
+        </form>
+      </div>
+
+      <div class="nav-right">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="hero">
+    <!-- Hero / Banner -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Unlock Your Potential with Online Learning</h1>
+        <p>
+          Join thousands of learners and access top-rated courses from expert
+          instructors. Learn anytime, anywhere.
+        </p>
+
+        <form class="hero-search" action="#">
+          <input
+            type="text"
+            placeholder="What do you want to learn?"
+            aria-label="What do you want to learn?"
+          />
+          <button type="submit" class="btn btn-primary">
+            Find Courses
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section id="categories" class="categories-section">
+      <h2>Popular Categories</h2>
+
+      <div class="category-grid">
+        <article class="category-card">
+          <div class="icon">💻</div>
+          <h3>Development</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">🎨</div>
+          <h3>Design</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">💼</div>
+          <h3>Business</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">🧠</div>
+          <h3>Languages</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">📚</div>
+          <h3>Academics</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">🎵</div>
+          <h3>Music</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">🌟</div>
+          <h3>Lifestyle</h3>
+        </article>
+
+        <article class="category-card">
+          <div class="icon">🔬</div>
+          <h3>Science</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="courses-section">
+      <div class="section-header">
+        <h2>Featured Courses</h2>
+
+        <div class="filters">
+          <label>
+            Level:
+            <select>
+              <option>All</option>
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+          </label>
+
+          <label>
+            Price:
+            <select>
+              <option>All</option>
+              <option>Free</option>
+              <option>Paid</option>
+            </select>
+          </label>
+
+          <label class="checkbox-label">
+            <input type="checkbox" />
+            <span>Certificate</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-img img-1" role="img" aria-label="Modern Web Development Bootcamp"></div>
+          <div class="course-body">
+            <h3>Modern Web Development Bootcamp</h3>
+            <p>Learn HTML, CSS, and JavaScript from scratch with real projects.</p>
+            <div class="course-meta">
+              <span class="tag">Beginner</span>
+              <span class="rating">⭐ 4.8</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img img-2" role="img" aria-label="Graphic Design Masterclass"></div>
+          <div class="course-body">
+            <h3>Graphic Design Masterclass</h3>
+            <p>Create stunning visuals using modern design tools and techniques.</p>
+            <div class="course-meta">
+              <span class="tag">Intermediate</span>
+              <span class="rating">⭐ 4.6</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-img img-3" role="img" aria-label="Business Analytics Fundamentals"></div>
+          <div class="course-body">
+            <h3>Business Analytics Fundamentals</h3>
+            <p>Turn raw data into insights with hands-on analytics projects.</p>
+            <div class="course-meta">
+              <span class="tag">Advanced</span>
+              <span class="rating">⭐ 4.7</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Simple Pricing / CTA block so page feels complete -->
+    <section id="pricing" class="pricing-section">
+      <div class="pricing-card">
+        <h2>Simple Pricing</h2>
+        <p>Start learning today with flexible plans for individuals and teams.</p>
+        <ul>
+          <li>Access to 5,000+ courses</li>
+          <li>Certificates on completion</li>
+          <li>Downloadable resources</li>
+        </ul>
+        <button class="btn btn-primary">Start Free Trial</button>
+      </div>
+    </section>
+
+    <!-- Contact / Form -->
+    <section id="contact" class="contact-section">
+      <div class="contact-card">
+        <h2>Contact Us</h2>
+        <p>Have questions? Send us a message and we’ll get back to you shortly.</p>
+
+        <form class="contact-form" action="#">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" required placeholder="Your name" />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              required
+              placeholder="your@email.com"
+            />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="4"
+              required
+              placeholder="How can we help?"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Learnify. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+</body>
+</html>
